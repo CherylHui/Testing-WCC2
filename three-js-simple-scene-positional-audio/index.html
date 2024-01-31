@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sound Example</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	</head>
+	<body>
+		<audio loop id="Drum" preload="auto" style="display: none" >
+            <source src="public/audio/Drum-3js.mp3" type="audio/mpeg">
+        </audio>
+		<audio loop id="Synth" preload="auto" style="display: none" >
+            <source src="public/audio/Synth-3js.mp3" type="audio/mpeg">
+        </audio>
+		<audio loop id="Bass" preload="auto" style="display: none" >
+            <source src="public/audio/Bass-3js.mp3" type="audio/mpeg">
+        </audio>
+		
+		<div id="overlay">
+			<button id="startButton">Play</button>
+		</div>
+		<script type="module" src="/main.js"></script>
+	</body>
+	
+</html>
